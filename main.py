@@ -5,7 +5,7 @@ import scripts
 
 if __name__ == '__main__':
     TimeInput = ""
-    SoundPath = ""
+    SoundPath = os.getcwd() + "/scripts/panda.mp3"
     opts, args = getopt.getopt(
         sys.argv[1:],
         'ht:p:',
